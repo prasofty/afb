@@ -10,12 +10,13 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag  "application" %>
+
   </head>
 
-  <body class="<%= page_classes %>">
+  <body ng-app="afb" class="<%= page_classes %>">
     <div class="container">
       <%= yield %>
     </div>
+    <%= javascript_include_tag  "application" %>
   </body>
 </html>
