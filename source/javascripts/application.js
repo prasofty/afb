@@ -1,8 +1,7 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require angular
-//= require angular-form-builder/angular-form-builder
-//= require angular-form-builder/angular-form-builder-components
+//= require angular-form-builder/index
 //= require angular-validator/angular-validator
 //= require angular-validator/angular-validator-rules
 
